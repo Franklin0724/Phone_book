@@ -12,12 +12,13 @@ class List
 {
 	public:
 		List();
-		void add(Element* element);
-		void remove(int index);
-		void modify(int index, std::string name);
+		void add(); //Element* element
+ 		void remove(char a, char b); //int index
+ 		void modify(); //int index, std::string name
 	private:
 		Element* _first;
 		Element* _last;
 };
 
 #endif /* LIST_H_ */
+
